@@ -7,8 +7,8 @@
     <title>Matt Flynn</title>
 
     <!--put your Bootstrap stylesheet links above style.css-->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <!-- Create the navbar -->
@@ -30,7 +30,7 @@
                     <span class="menu"> Menu</span>
                 </button>
                 <!-- Offset home nav persistent on smallscreens -->
-                <a class="navbar-brand" href="#">Matt Flynn</a>
+                <a class="navbar-brand" href="../index.html">Matt Flynn</a>
             </div>
             <!-- Links collapsed on smallscreens -->
             <div id="navbar-header" class="collapse navbar-collapse">
@@ -46,39 +46,30 @@
         </div> <!-- end .container -->
     </nav> <!-- end navigation bar -->
 
-
     <!--Jumbotron-->
     <div class="jumbotron">
         <div class="container">
-            <h2>Matt Flynn</h2>
-            <p>Be Courageous. Stay Strong. Keep Faith</p>
+            <h2>The Wrath of Wildfires</h2>
         </div>
     </div>
 
-    <!--Wildfire story map -->
-    <div class="container">
+    <!--Main Content-->
+    <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
-                <div class="card">
-                    <a href="wildfires.html">Storymap Description</a>
-                    <iframe src="https://arcg.is/11zfTi1" width="100%" height="500px" frameborder="0" allowfullscreen allow="geolocation"></iframe>
-                </div>
+                <p>This scrolly map depicts...
+                </p>
+                <a href="https://arcg.is/11zfTi1" target="_blank">View storymap in a separate tab</a>
             </div>
+            <div class="col-md-12">
+                <a href="https://arcg.is/11zfTi1" target="_blank">
+                    <iframe src="https://arcg.is/11zfTi1" width="100%" height="500px" frameborder="0" allowfullscreen allow="geolocation">
+                    </iframe>
+                </a>
 
-<!--Headshot...
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <h2>Geography Student</h2>
-                <hr>
-                <h5>University of Wisconsin-Madison</h5>
             </div>
-            <div class="col-md-8">
-                <div class="thumbnail">
-                    <img src="./assets/headshot.jpg" alt="Headshot" style="width:100%">
-                </div>
-            </div>
--->
+        </div>
+    </div>
 
     <!--put your external script links here-->
     <script type="text/javascript" src="lib/jquery-3.5.1.min.js"></script>
